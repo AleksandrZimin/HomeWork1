@@ -7,7 +7,7 @@ public class Team {
     //Random random = new Random();
 
     Competitor[] partner = new Competitor[3];
-    Players[] zoo = {new Player3("Murzik"), new Player1("Izzy")};
+    Players[] team = {new Player1("Alex"), new Player2("Kenny"), new Player3("Bob"), new Player4("Diego")};
     // Формируем команду
     public Team(String nameTeam, Competitor com1, Competitor com2, Competitor com3 ) {
         this.nameTeam  = nameTeam;

@@ -8,7 +8,7 @@ public class Players implements Competitor {
 
     boolean onDistance;
 
-    public Players(String type, String name, int maxRunDistance, int maxJumpHeight, int maxSwimDistance) {
+    public Players(String type, String name, int maxRunDistance) {
         this.type = type;
         this.name = name;
         this.maxRunDistance = maxRunDistance;
